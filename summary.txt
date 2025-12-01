@@ -1,0 +1,5 @@
+I adjusted a few things, I made the amount of items vary from 0 to 50, but also made it so that if it was below 25, it would go up by 5, and if it was above 25, it would go down by 5. 
+This gives a closer to bell shape distribution then normal randomization.
+I made the shoppers random from 1 to 5 minutes, and made the time to shop each item vary from 1 to 1/3 of a minute.
+I think the ideal number of checkers for this set of assumptions is 2, as increasing the number of checkers to 3 or more has a small impact on wait time, but a large impact on idle time. 
+Decreasing the number of checkers to 1 drastically increases the average wait time, so I think 2 is the best middle-ground.
